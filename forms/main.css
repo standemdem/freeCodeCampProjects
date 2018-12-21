@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    color: blue;
+}
+#main{
+    width: 80%;
+    margin: 0 auto;
+}
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+}
+.rightTab{
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}

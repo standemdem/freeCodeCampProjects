@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My FCC form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header>
+    <h1 id="title">My first FreeCodeCamp.org Form</h1>
+</header>
+<main id="main">
+    <div>
+        <p id="description">Let me know who you are and you might get a candy</p>
+    </div>
+    <div>
+        <form id="survey-form" action="">
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="name-label" for="name">What is your first name ?</label>
+                </div>
+                <div class="rightTab">
+                    <input type="text" id="name" name="firstname" placeholder="first name" required>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="last-name">What is your last name ?</label>
+                </div>
+                <div class="rightTab">
+                    <input type="text" id="last-name" name="last-name" placeholder="last name" required>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="number-label" for="number">How old are you ?</label>
+                </div>
+                <div class="rightTab">
+                    <input type="number" id="number" min="7" max="77" placeholder="age">
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="email-label" for="email">Give me your email right this instant!</label>
+                </div>
+                <div class="rightTab">
+                    <input type="email" id="email" name="email" placeholder="email" required>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
